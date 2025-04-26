@@ -6,8 +6,8 @@
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    width: 250px;
-    height: 400px;
+    /* width: 250px; */
+    height: 95%;
     justify-content: space-between;
 }
 
@@ -62,6 +62,7 @@
     border: 1px solid #cac;
     border-radius: 10px;
     background: #acc;
+    width: 100%;
     padding: 10px;
 }
 

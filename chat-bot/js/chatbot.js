@@ -2,30 +2,7 @@ const Gemini_Key = "AIzaSyC4k_eIKojbKs5ccVMMzMZpdnXA_BWqEJ4"
 document.querySelector(".inputarea button").addEventListener("click", sendMessage);
 
 const conversations = [
-    // {
-    //     "role": "user",
-    //     "parts": [
-    //       {
-    //         "text": "Hello"
-    //       }
-    //     ]
-    // },
-    // {
-    //     "role": "model",
-    //     "parts": [
-    //     {
-    //         "text": "Great to meet you. What would you like to know?"
-    //     }
-    //     ]
-    // },
-    // {
-    //     "role": "user",
-    //     "parts": [
-    //       {
-    //         "text": "I have two dogs in my house. How many paws are in my house?"
-    //       }
-    //     ]
-    // }
+    
 ]
 
 function sendMessage(){
