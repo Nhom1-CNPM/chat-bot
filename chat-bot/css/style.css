@@ -1,0 +1,83 @@
+.chatwindow {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border: 1px solid #cac;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    /* width: 250px; */
+    height: 95%;
+    justify-content: space-between;
+}
+
+.chatwindow .close {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.chatwindow .chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex: 1;
+    overflow: scroll;
+}
+
+.chatwindow .chat .model p {
+    background: gainsboro;
+    width: 80%;
+}
+
+.chatwindow .chat p {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.chatwindow .chat .user {
+    display: flex;
+    justify-content: end;
+}
+
+.chatwindow .chat .user p {
+    background: blue;
+    width: 80%;
+    color: white;
+}
+
+.inputarea {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+    padding-top: 5px;
+    border-top: 1px solid gray;
+}
+
+.inputarea input {
+    border: 1px solid #cac;
+    border-radius: 10px;
+    background: #acc;
+    width: 100%;
+    padding: 10px;
+}
+
+.inputarea button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    background-color: blue;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.inputarea button img {
+    width: 20px;
+
+}
